@@ -1,10 +1,10 @@
 import streamlit as st
-from utils.calculations import (
+from utilis.calculations import (
     prepare_monthly_summary,
     calculate_kpis,
     prepare_category_summary,
 )
-from utils.risk_model import calculate_risk_score, classify_risk
+from utilis.risk_model import calculate_risk_score, classify_risk
 
 st.set_page_config(page_title="SME Financial Intelligence", page_icon="📊", layout="wide")
 
